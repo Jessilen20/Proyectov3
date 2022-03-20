@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600&display=swap');
+@import "header";
+@import "footer";
+@import "variables";
+@import "sociales";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.inicio {
+    background-image: linear-gradient(to left, rgb(191, 134, 230), rgba(105, 177, 245, 0.432));
+
+    .inicioIzquierda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .inicioTitulo{
+        font-family: 'Saira Condensed', sans-serif;
+        font-size: 5rem;
+        //color: #772f5f;
+    }
+
+    .inicioTexto{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        //color: #772f5f;
+    }
+
+    .inicioImg{
+        border: 2px solid #080708;
+        width: 60%;
+        //margin-left: 150px;
+        margin: 2rem;
+    }
+}
+
+.inicioDos{
+    background-color: white;
+
+    .tituloDos {
+        font-family: 'Lobster', cursive;
+        font-weight: bold;
+        font-size: 2rem;
+        margin: 2rem;
+        color: #772f5f;
+    }
+
+    .bloque{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .elemento{
+            width: 16rem;
+            height: 10rem;
+            border: 3px solid black;
+            list-style: none;
+            
+            .opinion{
+                padding: 0.5rem;
+                color: #772f5f;
+                font-weight: bold; 
+                font-family:'Roboto', sans-serif; 
+                text-align: center;
+            }
+            
+//corregir
+            .nombre{
+                margin-bottom: 0.5rem;
+                color: #080708;
+                font-family: 'Lobster', cursive;
+                font-size: medium;
+                text-align: center;
+            }
+        }
+    }
+    
+}
+ 
+.ejemplo {
+    background-color: aquamarine;
+}
+
+.opinionImagen{
+    border-radius: 40px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+    

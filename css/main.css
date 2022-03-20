@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shizuru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600&display=swap");
+.title {
+  height: 20vh;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  background: url(../images/DisenoPortada.png) no-repeat;
+  background-position: center;
+  color: #860e7c;
+  font-size: 100px;
+  font-weight: bolder; }
+
+.footer {
+  margin-top: 4rem;
+  height: 20vh;
+  background-color: #7f36a1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+  .footer .marca {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    color: whitesmoke; }
+  .footer .autor {
+    font-family: 'Roboto', cursive;
+    font-size: bolder;
+    color: rgba(200, 221, 241, 0.815); }
+
+.social {
+  background-color: white;
+  width: 60px;
+  position: absolute;
+  top: 30vh;
+  border-radius: 30px;
+  right: 10px; }
+  .social ul {
+    list-style: none;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+    .social ul li {
+      margin-top: 0.5rem; }
+      .social ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.7rem; }
+      .social ul li:hover {
+        transform: scale(1.5); }
+
+.icon-social, .btn--facebook:hover, .btn--youtube:hover, .btn--instagram:hover {
+  padding: 0.4rem;
+  border-radius: 25px; }
+
+/*Creamos el bucle para usar los valores del mapa*/
+.btn--facebook {
+  color: #3a5795; }
+
+:hover.btn--facebook {
+  background-color: rgba(127, 54, 161, 0.815); }
+
+.btn--youtube {
+  color: #ec451b; }
+
+:hover.btn--youtube {
+  background-color: rgba(127, 54, 161, 0.815); }
+
+.btn--instagram {
+  color: #fcad47; }
+
+:hover.btn--instagram {
+  background-color: rgba(127, 54, 161, 0.815); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.inicio {
+  background-image: linear-gradient(to left, #bf86e6, rgba(105, 177, 245, 0.432)); }
+  .inicio .inicioIzquierda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; }
+  .inicio .inicioTitulo {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 5rem; }
+  .inicio .inicioTexto {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    text-align: center; }
+  .inicio .inicioImg {
+    border: 2px solid #080708;
+    width: 60%;
+    margin: 2rem; }
+
+.inicioDos {
+  background-color: white; }
+  .inicioDos .tituloDos {
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 2rem;
+    color: #772f5f; }
+  .inicioDos .bloque {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .inicioDos .bloque .elemento {
+      width: 16rem;
+      height: 10rem;
+      border: 3px solid black;
+      list-style: none; }
+      .inicioDos .bloque .elemento .opinion {
+        padding: 0.5rem;
+        color: #772f5f;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        text-align: center; }
+      .inicioDos .bloque .elemento .nombre {
+        margin-bottom: 0.5rem;
+        color: #080708;
+        font-family: 'Lobster', cursive;
+        font-size: medium;
+        text-align: center; }
+
+.ejemplo {
+  background-color: aquamarine; }
+
+.opinionImagen {
+  border-radius: 40px;
+  margin-bottom: 1rem;
+  margin-top: 1rem; }

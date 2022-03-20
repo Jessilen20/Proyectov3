@@ -1,0 +1,22 @@
+.footer {
+    margin-top: 4rem;
+    height: 20vh;
+    background-color: rgba(127, 54, 161, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .marca{
+        font-family: 'Lobster', cursive;
+        font-size: 1.5rem;
+        color: whitesmoke;
+    }
+
+    .autor {
+        font-family: 'Roboto', cursive;
+        font-size: bolder;
+        color: rgba(200, 221, 241, 0.815);
+        
+    }
+}
