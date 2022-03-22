@@ -26,7 +26,6 @@
     .inicioTitulo{
         font-family: 'Saira Condensed', sans-serif;
         font-size: 5rem;
-        //color: #772f5f;
     }
 
     .inicioTexto{
@@ -35,13 +34,11 @@
         font-family: 'Roboto', sans-serif;
         font-size: 2rem;
         text-align: center;
-        //color: #772f5f;
     }
 
     .inicioImg{
         border: 2px solid #080708;
         width: 60%;
-        //margin-left: 150px;
         margin: 2rem;
     }
 }
@@ -65,8 +62,10 @@
         .elemento{
             width: 16rem;
             height: 10rem;
-            border: 3px solid black;
             list-style: none;
+            border-radius: 2rem;
+            background-color: rgba(164, 243, 217, 0.705);
+            box-shadow: 0px 10px 10px -8px black;
             
             .opinion{
                 padding: 0.5rem;
@@ -76,7 +75,6 @@
                 text-align: center;
             }
             
-//corregir
             .nombre{
                 margin-bottom: 0.5rem;
                 color: #080708;
@@ -89,14 +87,80 @@
     
 }
  
-.ejemplo {
-    background-color: aquamarine;
+// Estilos para Nosotros.html
+
+.imagenInicial {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.textSep{
+    margin-top: 2rem;
+    font-weight: 600;
+        color: $colorbase2;
+        font-family: 'Saira Condensed', sans-serif;
 }
 
 .opinionImagen{
     border-radius: 40px;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    opacity: 0.7;
 }
 
+.carousel-caption{
+    margin-bottom: 9.5rem;
+    padding-left: 50px;
+
+    p{
+        font-size: 2.7rem;
+        font-weight: 400;
+    }
+
+    h2{
+        margin-top: 4rem;
+        font-size: 2rem;
+        font-weight: 600;
+        color: $colorbase2;
+    }
+}
+
+//Estilos productos
+
+.container {
+
+    width: 100%;
+
     
+    .card{
+        width: 350px;
+        height: 480px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25s;
+
+        &:hover{
+            transform: translateY(-15px);
+            box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+        }
+
+        img{
+            width: 350px;
+            height: 280px;
+        }
+
+        h5{
+            font-weight: 500;
+        }
+
+        p{
+            padding-bottom: 1rem;
+            font-weight: 300;
+            font-size: 16px;
+        }
+    }
+    
+}
