@@ -7,7 +7,26 @@
     background:url(../images/DisenoPortada.png)no-repeat;
     background-position: center;
     color: rgb(134, 14, 124);
-    font-size: 100px;
+    font-size: 8rem;
     font-weight: bolder;
     
+    /*-------MEDIA QUERIES--------*/
+
+   
+    @media screen and (max-width: 325px) {
+    /*mobile*/
+    height: 40%;
+    font-size: 5rem;
+    
+    }
+
+    /*mobile horizontal
+    @media screen and (max-width: 480px) {
+    
+    font-size: 4rem;
+    height: 30vh;
+    }*/
+    
 }
+
+

@@ -2,14 +2,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600&display=swap");
 .title {
-  height: 20vh;
+  height: 30vh;
   font-family: 'Lobster', cursive;
   text-align: center;
   background: url(../images/DisenoPortada.png) no-repeat;
   background-position: center;
   color: #860e7c;
-  font-size: 100px;
-  font-weight: bolder; }
+  font-size: 8rem;
+  font-weight: bolder;
+  /*-------MEDIA QUERIES--------*/
+  /*mobile horizontal
+    @media screen and (max-width: 480px) {
+    
+    font-size: 4rem;
+    height: 30vh;
+    }*/ }
+  @media screen and (max-width: 325px) {
+    .title {
+      /*mobile*/
+      height: 40%;
+      font-size: 5rem; } }
 
 .footer {
   margin-top: 4rem;
@@ -32,7 +44,7 @@
   background-color: white;
   width: 60px;
   position: absolute;
-  top: 30vh;
+  top: 40vh;
   border-radius: 30px;
   right: 10px; }
   .social ul {
@@ -88,17 +100,11 @@
     justify-content: space-around; }
   .inicio .inicioTitulo {
     font-family: 'Saira Condensed', sans-serif;
-    font-size: 5rem; }
-  .inicio .inicioTexto {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center; }
   .inicio .inicioImg {
-    border: 2px solid #080708;
     width: 60%;
-    margin: 2rem; }
+    margin: 4rem; }
 
 .inicioDos {
   background-color: white; }
@@ -149,11 +155,12 @@
   opacity: 0.7; }
 
 .carousel-caption {
-  margin-bottom: 9.5rem;
+  margin-bottom: 2rem;
   padding-left: 50px; }
   .carousel-caption p {
-    font-size: 2.7rem;
-    font-weight: 400; }
+    font-size: 4rem;
+    font-weight: 400;
+    color: #080708; }
   .carousel-caption h2 {
     margin-top: 4rem;
     font-size: 2rem;
