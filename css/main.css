@@ -102,9 +102,22 @@
     font-family: 'Saira Condensed', sans-serif;
     font-size: 3rem;
     text-align: center; }
+  .inicio .inicioDerecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   .inicio .inicioImg {
-    width: 60%;
-    margin: 4rem; }
+    width: 50%;
+    margin: 2rem; }
+
+.carrusel {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .carrusel .detalle {
+    margin: 1rem -.75rem 0;
+    border: solid #772f5f;
+    background-color: #772f5f; }
 
 .inicioDos {
   background-color: white; }
@@ -149,22 +162,23 @@
   font-family: 'Saira Condensed', sans-serif; }
 
 .opinionImagen {
+  height: 100%;
   border-radius: 40px;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
   opacity: 0.7; }
 
 .carousel-caption {
-  margin-bottom: 2rem;
-  padding-left: 50px; }
+  padding-bottom: 1.25rem;
+  padding-top: 1rem;
+  position: absolute; }
   .carousel-caption p {
-    font-size: 4rem;
+    font-size: 1rem;
     font-weight: 400;
     color: #080708; }
-  .carousel-caption h2 {
-    margin-top: 4rem;
+  .carousel-caption h5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     font-size: 2rem;
-    font-weight: 600;
     color: #772f5f; }
 
 .container {
